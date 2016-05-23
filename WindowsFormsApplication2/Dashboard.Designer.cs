@@ -1,6 +1,6 @@
 ﻿namespace Crusader_of_the_Lost_Idols
 {
-    partial class Form2
+    partial class Dashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // Form2
+            // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(876, 354);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(40)))), ((int)(((byte)(5)))));
+            this.ClientSize = new System.Drawing.Size(866, 344);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "Dashboard";
+            this.Text = "Dashboard";
             this.ResumeLayout(false);
 
         }

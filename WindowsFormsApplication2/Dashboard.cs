@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Crusader_of_the_Lost_Idols
 {
-    public partial class Form2 : Form
+    public partial class Dashboard : Form
     {
-        public Form2()
+        public Dashboard()
         {
             InitializeComponent();
         }

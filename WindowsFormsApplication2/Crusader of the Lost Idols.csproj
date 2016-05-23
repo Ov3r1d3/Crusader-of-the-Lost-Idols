@@ -79,27 +79,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Botting_System.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Botting_System.Designer.cs">
+      <DependentUpon>Botting_System.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Stats_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Stats_Form.Designer.cs">
+      <DependentUpon>Stats_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Talent_Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Talent_Calculator.Designer.cs">
+      <DependentUpon>Talent_Calculator.cs</DependentUpon>
     </Compile>
     <Compile Include="MouseOp.cs" />
     <Compile Include="Pixel_Detect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Botting_System.resx">
+      <DependentUpon>Botting_System.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Stats_Form.resx">
+      <DependentUpon>Stats_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Talent_Calculator.resx">
+      <DependentUpon>Talent_Calculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
